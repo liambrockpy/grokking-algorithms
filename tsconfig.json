@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "lib": [
+            "ESNext",
+            "DOM"
+        ],
+        "module": "esnext",
+        "target": "esnext",
+        "moduleResolution": "node",
+        "forceConsistentCasingInFileNames": true,
+        "types": [
+            "bun-types"
+        ]
+    },
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Recommended"
+}
