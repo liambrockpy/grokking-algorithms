@@ -16,7 +16,7 @@ const obj = {
 //2 different ways of accessing the values associated with the keys (dot/bracket notation)
 console.log(obj.mood)
 console.log(obj["someFunc"].toString())    //toString needed in order to see contents of function, otherwise console prints `[Function]`
-//following cannot be accessed using dot notation
+//following cannot be accessed using dot notation (including strings with spaces or other alternative characters)
 console.log(obj["2.5"])
 console.log(obj[dynamicNum])
 
